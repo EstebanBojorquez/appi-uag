@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
-    keywords: 'gatsby,theme,carbon',
+    title: 'SIAUG - Sistema de Investigación UAG v2.0',
+    description: 'Sistema web para el almacenamiento y procesamiento de productos de investigación (APPI) generados en la Universidad Autónoma de Guadalajaram',
+    keywords: 'UAG, APPI, SIAUG, investigación, tesis',
+    lang: 'es'
   },
   pathPrefix: '/appi-uag',
   plugins: [
@@ -13,19 +14,15 @@ module.exports = {
         short_name: 'Gatsby Theme Carbon',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#0062ff',
+        theme_color: '#7D211A',
         display: 'browser',
       },
     },
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        mediumAccount: 'carbondesign',
-        repository: {
-          baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
-          subDirectory: '/packages/example',
-        },
+        navigationStyle: '',
+        titleType: 'preprend',
       },
     },
   ],
