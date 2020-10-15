@@ -1,0 +1,16 @@
+diff --git a/node_modules/gatsby-theme-carbon/src/components/Header/Header.module.scss b/node_modules/gatsby-theme-carbon/src/components/Header/Header.module.scss
+index ca004db..6d44d7a 100644
+--- a/node_modules/gatsby-theme-carbon/src/components/Header/Header.module.scss
++++ b/node_modules/gatsby-theme-carbon/src/components/Header/Header.module.scss
+@@ -38,9 +38,9 @@ header.header {
+   box-shadow: none;
+ }
+ 
+-.headerName span {
++/*.headerName span {
+   font-weight: 600;
+-}
++}*/
+ 
+ .header .skip-to-content {
+   color: $carbon--white-0;
