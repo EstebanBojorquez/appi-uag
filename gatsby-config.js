@@ -23,6 +23,7 @@ module.exports = {
       options: {
         navigationStyle: '',
         titleType: 'preprend',
+        iconPath: './static/images/UAG-1.png'
       },
     },
   ],

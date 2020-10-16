@@ -1,76 +1,27 @@
-- title: Getting started
+- title: Datos generales
   pages:
-    - path: /getting-started
-- title: Demo
+    - path: /datos-generales
+- title: Formación Académica
   pages:
-    - path: /demo
-- title: Gallery
+    - path: /formacion-academica
+- title: Formación de capital humano
   pages:
-    - path: /gallery
-- title: Contributions
+    - path: /formacion-capital-humano
+- title: Producción científica, tecnológica y de innovación
   pages:
-    - path: /contributions
-- title: Guides
+    - path: /produccion-cientifica-tecnologica-innovacion
+- title: Difusión y divulgación
   pages:
-    - title: Configuration
-      path: /guides/configuration
-    - title: Authoring MDX
-      path: /guides/MDX
-    - title: Shadowing
-      path: /guides/shadowing
-    - title: Styling
-      path: /guides/styling
-    - title: Navigation
-      path: /guides/navigation/sidebar
-    - title: npm scripts
-      path: /guides/npm-scripts
-- title: Components
+    - path: /difusion-divulgacion
+- title: Vinculación
   pages:
-    - title: Accordion
-      path: /components/Accordion
-    - title: AnchorLinks
-      path: /components/AnchorLinks
-    - title: ArtDirection
-      path: /components/ArtDirection
-    - title: ArticleCard
-      path: /components/ArticleCard
-    - title: Aside
-      path: /components/Aside
-    - title: Caption
-      path: /components/Caption
-    - title: Code blocks
-      path: /components/code-blocks
-    - title: DoDontExample
-      path: /components/DoDontExample
-    - title: DoDontRow
-      path: /components/DoDontRow
-    - title: FeatureCard
-      path: /components/FeatureCard
-    - title: FeedbackDialog
-      path: /components/FeedbackDialog
-    - title: GifPlayer
-      path: /components/GifPlayer
-    - title: Grid
-      path: /components/Grid
-    - title: ImageCard
-      path: /components/ImageCard
-    - title: ImageGallery
-      path: /components/ImageGallery
-    - title: InlineNotification
-      path: /components/InlineNotification
-    - title: Markdown
-      path: /components/markdown
-    - title: MediumPosts
-      path: /components/MediumPosts
-    - title: MiniCard
-      path: /components/MiniCard
-    - title: PageDescription
-      path: /components/PageDescription
-    - title: ResourceCard
-      path: /components/ResourceCard
-    - title: Tabs
-      path: /components/Tabs
-    - title: Title
-      path: /components/Title
-    - title: Video
-      path: /components/Video
+    - path: /vinculacion
+- title: Proyectos de investigación
+  pages:
+    - path: /proyectos-investigacion
+- title: Lineas de investigación
+  pages:
+    - path: /lineas-investigacion
+- title: Participación en la vida institucional
+  pages:
+    - path: /participacion-vida-institucional

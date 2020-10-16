@@ -14,3 +14,77 @@ index ca004db..6d44d7a 100644
  
  .header .skip-to-content {
    color: $carbon--white-0;
+diff --git a/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.js b/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.js
+index aae2813..dcb858c 100644
+--- a/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.js
++++ b/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.js
+@@ -88,35 +88,34 @@ export const SwitcherLink = ({
+ // Note: if you change this, update the max-height in the switcher stylesheet
+ const DefaultChildren = () => (
+   <>
+-    <SwitcherLink href="https://ibm.com/design">IBM Design</SwitcherLink>
+-    <SwitcherLink href="https://ibm.com/design/language">
+-      IBM Design Language
++    <SwitcherLink href="http://www.uag.mx/">
++      Sitio UAG
+     </SwitcherLink>
+-    <SwitcherLink href="https://ibm.com/brand">IBM Brand Center</SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/able/">
+-      IBM Accessibility
++    <SwitcherLink href="https://campus.uag.mx/Ingreso">
++      Campus Digital UAG
+     </SwitcherLink>
+-    <SwitcherDivider>Design disciplines</SwitcherDivider>
+-    <SwitcherLink href="https://www.carbondesignsystem.com/">
+-      Product
++    <SwitcherDivider>Estudiantes</SwitcherDivider>
++    <SwitcherLink href="https://www.facebook.com/uagfej">
++      Federación de Estudiantes de Jalisco
+     </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/standards/web/ibm-dotcom-library/">
+-      Digital
++    <SwitcherLink href="http://egresados.uag.mx/">
++      Egresados
+     </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/design/event/">Event</SwitcherLink>
+-    <SwitcherLink disabled>Workplace</SwitcherLink>
+-    <SwitcherDivider>Design practices</SwitcherDivider>
+-    <SwitcherLink href="https://www.ibm.com/design/thinking/">
+-      Enterprise Design Thinking
++    <SwitcherLink href="http://egresado.uag.mx/Egresados/Pg_I_Egpuboldefault.cfm">
++      Bolsa de trabajo
+     </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/design/research/">
+-      IBM Design Research
++    <SwitcherDivider>Centros</SwitcherDivider>
++    <SwitcherLink href="http://cipae.uag.mx/">
++      Centro de Inteligencia para el Apoyo a Emprendedores
+     </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/design/ai">
+-      IBM Design for AI
++    <SwitcherLink href="http://cidi.uag.mx/">
++      CIDI Centro de Investigación para el Desarrollo Industrial
+     </SwitcherLink>
+-    <SwitcherLink href="https://www.ibm.com/services/ibmix/">
+-      IBM iX
++    <SwitcherLink href="http://citsia.com/">
++      CITSIA Desarrollo Tecnológico de Alimentos
++    </SwitcherLink>
++    <SwitcherLink href="http://cser.uag.mx/">
++      CSER Centro de Sustentabilidad y Energía Renovable
+     </SwitcherLink>
+   </>
+ );
+diff --git a/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.module.scss b/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.module.scss
+index 3f1ac44..4fc287f 100644
+--- a/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.module.scss
++++ b/node_modules/gatsby-theme-carbon/src/components/Switcher/Switcher.module.scss
+@@ -5,7 +5,7 @@
+   right: 0;
+   top: 48px;
+   height: 100%;
+-  width: 16rem;
++  width: 20rem;
+   background-color: $ui-05;
+   border-left: 1px solid $inverse-02;
+   transform: translateX(16rem);
