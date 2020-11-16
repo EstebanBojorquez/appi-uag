@@ -22,7 +22,7 @@ module.exports = {
       resolve: 'gatsby-theme-carbon',
       options: {
         navigationStyle: '',
-        titleType: 'preprend',
+        titleType: 'prepend',
         iconPath: './static/images/UAG-1.png'
       },
     },
